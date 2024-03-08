@@ -17,4 +17,4 @@ module MoleEventStream =
   /// PositionStream will be applied in a lazy manner: only when a Popup event
   /// occurs.
   let create (freq: uint32) (seed: int): MoleEventStream =
-    failwith "Implement"
+    failwith "Implement" // REMOVE this line when you implement your own code

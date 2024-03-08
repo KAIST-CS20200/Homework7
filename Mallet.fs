@@ -13,4 +13,4 @@ module MalletEventStream =
   /// PositionStream, and the seed to the PositionStream is given by the seed
   /// parameter of this function.
   let create (seed: int): MalletEventStream =
-    failwith "Implement"
+    failwith "Implement" // REMOVE this line when you implement your own code

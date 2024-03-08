@@ -26,4 +26,4 @@ module CS220.Score
 let compute (moles: MoleEventStream)
             (mallets: MalletEventStream)
             (epochs: uint32) =
-  failwith "Implement"
+  failwith "Implement" // REMOVE this line when you implement your own code

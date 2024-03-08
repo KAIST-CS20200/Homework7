@@ -18,4 +18,4 @@ module PositionStream =
   /// using the following formula: state_1 = (214013 * state_0 + 2531011) %
   /// (2^31). The stream will return (state_n % 9) as a random position value.
   let create (seed: int): PositionStream =
-    failwith "Implement"
+    failwith "Implement" // REMOVE this line when you implement your own code
